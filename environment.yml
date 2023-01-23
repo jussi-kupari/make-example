@@ -1,0 +1,8 @@
+name: /home/jkupari/projects/make-lesson/env
+channels:
+  - defaults
+dependencies:
+  - make
+  - numpy
+  - matplotlib
+prefix: /home/jkupari/projects/make-lesson/env
