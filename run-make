@@ -1,8 +1,11 @@
 #!/usr/bin/bash
 
+# If you want to compile the project using a script
+# You have to run this to activate the conda env.
+
 # Activate conda environment with this one cool trick
 eval "$(conda shell.bash hook)"
 conda activate ./env
 
 # Run make and feed it an argu/rule (e.g. all, clean, etc.)
-make $1
+make "$1"
